@@ -1,1 +1,344 @@
-dm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0ltZHBkR2gxWWk1amIyMHZVR0YzWkhKdmFXUWdMU0RtbDZYbW5Ld2dJREkwSWl3TkNpQWdJbUZrWkNJNklDSTBNeTR5TURBdU1qTXhMamc1SWl3TkNpQWdJbkJ2Y25RaU9pQWlPREE0TVNJc0RRb2dJQ0pwWkNJNklDSmtabUU1TVRNMk9DMDNZVE15TFRSaFltVXRabVppWXkwM05UTmlNVGcwTjJRNE9Ua2lMQTBLSUNBaVlXbGtJam9nSWpBaUxBMEtJQ0FpYzJONUlqb2dJbUYxZEc4aUxBMEtJQ0FpYm1WMElqb2dJbmR6SWl3TkNpQWdJblI1Y0dVaU9pQWlibTl1WlNJc0RRb2dJQ0pvYjNOMElqb2dJaUlzRFFvZ0lDSndZWFJvSWpvZ0lpOGlMQTBLSUNBaWRHeHpJam9nSWlJc0RRb2dJQ0p6Ym1raU9pQWlJaXdOQ2lBZ0ltRnNjRzRpT2lBaUlnMEtmUT09DQp2bWVzczovL2V3MEtJQ0FpZGlJNklDSXlJaXdOQ2lBZ0luQnpJam9nSXZDZmg3cnduNGU0WDFWVFgrZStqdVdidlY4eUlpd05DaUFnSW1Ga1pDSTZJQ0oyZFhNekxqQmlZV1F1WTI5dElpd05DaUFnSW5CdmNuUWlPaUFpTkRReklpd05DaUFnSW1sa0lqb2dJamt5TnpBNU5HUXpMV1EyTnpndE5EYzJNeTA0TlRreExXVXlOREJrTUdKallXVTROeUlzRFFvZ0lDSmhhV1FpT2lBaU1DSXNEUW9nSUNKelkza2lPaUFpWVhWMGJ5SXNEUW9nSUNKdVpYUWlPaUFpZDNNaUxBMEtJQ0FpZEhsd1pTSTZJQ0p1YjI1bElpd05DaUFnSW1odmMzUWlPaUFpZG5Wek15NHdZbUZrTG1OdmJTSXNEUW9nSUNKd1lYUm9Jam9nSWk5amFHRjBJaXdOQ2lBZ0luUnNjeUk2SUNKMGJITWlMQTBLSUNBaWMyNXBJam9nSWlJc0RRb2dJQ0poYkhCdUlqb2dJaUlOQ24wPQ0KdHJvamFuOi8vZjM5YmQyNDQtZjVmZS00MTVjLThiOTgtYTFlNTI1MGJmMTc4QGZoY2FybTIuZ2FveC5tbDo0NDM/c2VjdXJpdHk9dGxzJnR5cGU9dGNwJmhlYWRlclR5cGU9bm9uZSNVUyUyMDYlMjAlRTIlODYlOTIlMjBvcGVuaXRzdWIuY29tDQp2bWVzczovL2V3MEtJQ0FpZGlJNklDSXlJaXdOQ2lBZ0luQnpJam9nSW1kcGRHaDFZaTVqYjIwdlVHRjNaSEp2YVdRZ0xTRG52bzdsbTcxRGJHOTFaRVpzWVhKbDZJcUM1NEs1SURFaUxBMEtJQ0FpWVdSa0lqb2dJbU50TG1ObUxtTnVZVzFsTG1Oc2RXSWlMQTBLSUNBaWNHOXlkQ0k2SUNJeU1EVXlJaXdOQ2lBZ0ltbGtJam9nSWpabE9UQXlabVJsTFdSallqRXROR1ExWVMwNU1EYzVMVGhqTURnMlpEZzJOemsxTkNJc0RRb2dJQ0poYVdRaU9pQWlNQ0lzRFFvZ0lDSnpZM2tpT2lBaVlYVjBieUlzRFFvZ0lDSnVaWFFpT2lBaWQzTWlMQTBLSUNBaWRIbHdaU0k2SUNKdWIyNWxJaXdOQ2lBZ0ltaHZjM1FpT2lBaWRYTXVZMll1WTI1aGJXVXVZMngxWWlJc0RRb2dJQ0p3WVhSb0lqb2dJaThpTEEwS0lDQWlkR3h6SWpvZ0lpSXNEUW9nSUNKemJta2lPaUFpSWl3TkNpQWdJbUZzY0c0aU9pQWlJZzBLZlE9PQ0Kdm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0l2Q2ZoN3J3bjRlNFgxVlRYK2UranVXYnZWOHhJaXdOQ2lBZ0ltRmtaQ0k2SUNJMk55NHlNUzQzTWk0ME5DSXNEUW9nSUNKd2IzSjBJam9nSWpRME15SXNEUW9nSUNKcFpDSTZJQ0l5TlRZMlpEQXdaaTB5TVRoakxUUTRaamN0T1dFek5pMHhNMlF6WkRabU1XRTNNalFpTEEwS0lDQWlZV2xrSWpvZ0lqWTBJaXdOQ2lBZ0luTmplU0k2SUNKaGRYUnZJaXdOQ2lBZ0ltNWxkQ0k2SUNKM2N5SXNEUW9nSUNKMGVYQmxJam9nSW01dmJtVWlMQTBLSUNBaWFHOXpkQ0k2SUNKM2QzY3VORGc0TVRZMk1qWXVlSGw2SWl3TkNpQWdJbkJoZEdnaU9pQWlMM0JoZEdndk1USXdNakE0TXpBeE5ESXlJaXdOQ2lBZ0luUnNjeUk2SUNKMGJITWlMQTBLSUNBaWMyNXBJam9nSWlJc0RRb2dJQ0poYkhCdUlqb2dJaUlOQ24wPQ0Kdm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0lrTk9JREV5SU9LR2tpQjJNbU55YjNOekxtTnZiU0lzRFFvZ0lDSmhaR1FpT2lBaVpHRjBZUzFvYXkxMk1TNW9aV2x6WlhrdVkyNGlMQTBLSUNBaWNHOXlkQ0k2SUNJMU1ESXdOU0lzRFFvZ0lDSnBaQ0k2SUNKaU1UUTNPR1V5TkMwME9URTJMVE5oWW1VdE9HWXhOeTB4TlRrek1UQXhNbVZqWW1VaUxBMEtJQ0FpWVdsa0lqb2dJakVpTEEwS0lDQWljMk41SWpvZ0ltRjFkRzhpTEEwS0lDQWlibVYwSWpvZ0luZHpJaXdOQ2lBZ0luUjVjR1VpT2lBaWJtOXVaU0lzRFFvZ0lDSm9iM04wSWpvZ0luUjJMbU5qZEhZdVkyOXRJaXdOQ2lBZ0luQmhkR2dpT2lBaUwyaHNjeTlqWTNSMk5YQm9aQzV0TTNVNElpd05DaUFnSW5Sc2N5STZJQ0lpTEEwS0lDQWljMjVwSWpvZ0lpSXNEUW9nSUNKaGJIQnVJam9nSWlJTkNuMD0NCnRyb2phbjovL2UyM2Y0MDhhLTAxMmUtNDAzMC04YjMxLTAyMDIyMDMxY2I1MEBmaGNhbWQxLmdhb3gubWw6NDQzP3NlY3VyaXR5PXRscyZ0eXBlPXRjcCZoZWFkZXJUeXBlPW5vbmUjVVMlMjAxJTIwJUUyJTg2JTkyJTIwb3Blbml0c3ViLmNvbQ0Kdm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0lrQlRVMUpUVlVJdFZqRXlMZVM3bU9pMHVlYU9xT2lOa0RwemRXOHVlWFF2YzNOeWMzVmlJaXdOQ2lBZ0ltRmtaQ0k2SUNJeE1qZ3VNVFF1TVRRd0xqSTFOQ0lzRFFvZ0lDSndiM0owSWpvZ0lqUTBNeUlzRFFvZ0lDSnBaQ0k2SUNJd05EYzVaV0k1WkMwNU9UbGtMVFJpWm1ZdFlXVXpaaTAwWmpkall6UTBNR05sTkRZaUxBMEtJQ0FpWVdsa0lqb2dJakFpTEEwS0lDQWljMk41SWpvZ0ltRjFkRzhpTEEwS0lDQWlibVYwSWpvZ0luZHpJaXdOQ2lBZ0luUjVjR1VpT2lBaWJtOXVaU0lzRFFvZ0lDSm9iM04wSWpvZ0luWXljbUY1TWk1emMzSXRabkpsWlRJdWVIbDZJaXdOQ2lBZ0luQmhkR2dpT2lBaUwyUnZibWQwWVdsM1lXNW5MbU52YlNJc0RRb2dJQ0owYkhNaU9pQWlkR3h6SWl3TkNpQWdJbk51YVNJNklDSWlMQTBLSUNBaVlXeHdiaUk2SUNJaURRcDkNCnRyb2phbjovLzgxZDkzZjYyLTE1YTItNDk5NC1hZGI5LTBiNWQ5MDZhYWM3ZUAzMS43MmltZy54eXo6NDQzP3NlY3VyaXR5PXRscyZ0eXBlPXRjcCZoZWFkZXJUeXBlPW5vbmUjVVMlMjAyJTIwJUUyJTg2JTkyJTIwb3Blbml0c3ViLmNvbQ0Kdm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0luWXljbUY1Wm5KbFpTNWxkUzV2Y21jZ0xTRG52bzdsbTcxRGJHOTFaRVpzWVhKbDZJcUM1NEs1SURRaUxBMEtJQ0FpWVdSa0lqb2dJakU1T0M0ME1TNHlNRE11TXlJc0RRb2dJQ0p3YjNKMElqb2dJalEwTXlJc0RRb2dJQ0pwWkNJNklDSXpNMkZoTlRka1ppMHhZemt6TFRRek1UZ3RPV1pqWlMxbE9EVXdORE0zWldVM09ERWlMQTBLSUNBaVlXbGtJam9nSWpBaUxBMEtJQ0FpYzJONUlqb2dJbUYxZEc4aUxBMEtJQ0FpYm1WMElqb2dJbmR6SWl3TkNpQWdJblI1Y0dVaU9pQWlibTl1WlNJc0RRb2dJQ0pvYjNOMElqb2dJbXhuTVM1alptTmtiak11ZUhsNklpd05DaUFnSW5CaGRHZ2lPaUFpTDJSdmJtZDBZV2wzWVc1bkxtTnZiU0lzRFFvZ0lDSjBiSE1pT2lBaWRHeHpJaXdOQ2lBZ0luTnVhU0k2SUNJaUxBMEtJQ0FpWVd4d2JpSTZJQ0lpRFFwOQ0KdHJvamFuOi8vODFkOTNmNjItMTVhMi00OTk0LWFkYjktMGI1ZDkwNmFhYzdlQDMyLjcyaW1nLnh5ejo0NDM/c2VjdXJpdHk9dGxzJnR5cGU9dGNwJmhlYWRlclR5cGU9bm9uZSNVUyUyMDQlMjAlRTIlODYlOTIlMjBvcGVuaXRzdWIuY29tDQp0cm9qYW46Ly85Njk4M2ViNC1jOGYxLTMxNmUtYWIwMC01MDAwMTRlZDNkOGJAb2ZmaWNpYWwudG9reW9tZXRyb3BvbGlzLmtpZXYudWE6MjA1Mz9zZWN1cml0eT10bHMmc25pPTY2LjQyLjQwLjEzMiZ0eXBlPXRjcCZoZWFkZXJUeXBlPW5vbmUjQ04lMjAyMSUyMCVFMiU4NiU5MiUyMHYyY3Jvc3MuY29tDQo=
+# DNS防泄露版本
+# 不是必须请勿用，不懂不要随便更改DNS模块
+# 必读！！！
+# 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
+# 跑裸核用户请自行去掉下方控制面板模块的注释。 https://ghfast.top/
+# 机场订阅 https://gh-proxy.com/ 
+proxy-providers:
+  主:
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml"
+    #url: "https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt"
+    type: http
+    interval: 21600
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 直连
+  备:
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    #url: ""
+    type: http
+    interval: 10800
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 直连
+    
+# 节点信息
+proxies:
+  - {name: 直连, type: direct}
+  - {name: 拦截, type: reject}
+  
+# 全局配置 
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7894
+allow-lan: true
+bind-address: "*"
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+# interface-name: enp6s18
+log-level: info
+find-process-mode: 'off'
+global-client-fingerprint: chrome
+keep-alive-idle: 600
+keep-alive-interval: 15
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+prefer-h3: true                   #新增规则
+cache-size: 8192  # 提升缓存应对高并发   #新增规则  
+Protocol  : TLSv1.3  # 理想状态 
+#Cipher    : TLS_AES_128_GCM_SHA256  # 现代加密套件
+auto-redir: true                  #后增加内容
+#mtu: 1500                       #后增加内容
+strict-route: true                 #后增加内容
+
+
+# 为防止使用插件朋友遇到面板问题，我注释掉了此模块。
+# 跑裸核朋友自行删除注释即可，使用nikki仅内核的ui路径改为/etc/nikki/run/ui
+#external-controller: 0.0.0.0:9090
+#secret: ""
+#external-ui: "/etc/mihomo/ui"
+#external-ui-name: zashboard
+#external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
+
+
+# 嗅探域名 可选配置
+sniffer:
+  ## 对 redir-host 类型识别的流量进行强制嗅探
+  ## 如：Tun、Redir 和 TProxy 并 DNS 为 redir-host 皆属于
+#  force-dns-mapping: true
+  ## 对所有未获取到域名的流量进行强制嗅探
+#  parse-pure-ip: true
+  # 是否使用嗅探结果作为实际访问，默认 true
+  # 全局配置，优先级低于 sniffer.sniff 实际配置
+  enable: true
+#  override-destination: true
+  sniff: # TLS 和 QUIC 默认如果不配置 ports 默认嗅探 443
+    QUIC:
+      ports: [443 ,8443]
+
+    TLS:
+      ports: [443 ,8443]
+
+    # 默认嗅探 80
+    HTTP:
+      ports: [80, 8080-8880]
+      # 是否使用嗅探结果作为实际访问
+      override-destination: true
+  force-domain:
+#  - '+' # Force all domain to use sniffer
+    - "+.v2ex.com"
+    - "+.netflix.com"
+    - "+.nflxvideo.net"
+    - "+.amazonaws.com"
+    - "+.media.dssott.com"
+  ## 对嗅探结果进行跳过
+  skip-domain:
+    - +.baidu.com
+    - +.163.com
+    - +.apple.com
+    - Mijia Cloud
+    - dlg.io.mi.com
+    - +.oray.com
+    - +.sunlogin.net
+    - +.push.apple.com
+    - geosite:cn
+  skip-src-address: # 对于来源ip跳过嗅探
+     - 192.168.0.3/32
+  skip-dst-address: # 对于目标ip跳过嗅探
+     - 192.168.0.3/32
+  #force-domain:
+    #- "+.v2ex.com"
+  #skip-domain:
+    #- "+.baidu.com"
+
+
+# 入站  
+tun:
+  enable: true
+  # system/gvisor/mixed
+  stack: mixed
+  dns-hijack: ["any:53", "tcp://any:53"]
+  #使用nikki，混入全部不修改的情况，开启接口指定为nikki
+  #使用仅内核自行修改下面三项为true
+  #device: nikki
+  #auto-route: true
+  #auto-redirect: true
+  #auto-detect-interface: true
+
+
+
+# DNS模块
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  respect-rules: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.0.0.1/8
+  fake-ip-filter-mode: blacklist
+  
+  fake-ip-filter:
+    - "rule-set:private_domain,cn_domain,apple_domain" 
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "time.*.com"
+    - "+.market.xiaomi.com"
+    
+    - "geosite:cn"            #新增规则
+    - "geosite:private"         #新增规则
+    - "geosite:apple-cn"        #新增规则
+    - "geosite:google-cn"        #新增规则
+    - "geosite:category-games@cn"   # 腾讯/网易系游戏
+    - "geosite:steam@cn"         # 蒸汽平台
+    - "geosite:epicgames@cn"      # Epic中国
+#    - api.ipify.org
+#    - ipleak.net
+#    - ipip.net
+#    - ip.sb
+  # 代理DNS通道（强制加密）
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://119.29.29.29/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - tls://dns.quad9.net:853
+    - tls://8.8.8.8:853
+    - tls://1.1.1.1:853
+  # 直连DNS通道（国内专用）
+  direct-nameserver:
+    #- 127.0.0.1            #增加主路由IP地址
+    #- 202.97.224.68                   #增加ISP提供DNS
+    #- 202.97.224.69                   #增加ISP提供DNS
+    
+    - 223.5.5.5
+    - 119.29.29.29
+    
+    - https://223.5.5.5/dns-query
+    - https://119.29.29.29/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    #- tls://dot.pub:853
+  # 主用DNS（强制走代理）
+  nameserver:
+    #- 202.97.224.68
+    #- 202.97.224.69
+
+    - https://8.8.8.8/dns-query
+    - https://1.0.0.1/dns-query
+    - tls://dns.quad9.net:853
+    - tls://dns.google:853
+    - tls://8.8.8.8:853  # Google 
+    - tls://1.1.1.1:853  # Cloudflare
+  # 智能分流策略   
+  nameserver-policy:
+    
+    #'www.baidu.com': '202.97.224.68'
+    #'+.internal.crop.com': '10.0.0.1'
+    #"_vlmcs._tcp.lan": '127.0.0.1:53'
+    "rule-set:private_domain,cn_domain,apple_domain": [223.5.5.5,119.29.29.29, https://223.5.5.5/dns-query, https://119.29.29.29/dns-query, https://doh.pub/dns-query] 
+    "geosite:cn,private": [223.5.5.5, 119.29.29.29, https://223.5.5.5/dns-query, https://119.29.29.29/dns-query, https://doh.pub/dns-query]
+    "geosite:google": [https://dns.google/dns-query, tls://8.8.4.4:853, tls://8.8.8.8:853, https://1.0.0.1/dns-query]
+    "geosite:category-games@cn": [https://doh.pub/dns-query, 223.5.5.5, 119.29.29.29]
+    "geosite:geolocation-!cn": [https://dns.google/dns-query,  https://cloudflare-dns.com/dns-query, tls://8.8.8.8:853, tls://1.1.1.1:853]
+
+  # 备用DNS配置   
+  fallback: 
+      - tls://1.0.0.1:853
+      - https://cloudflare-dns.com/dns-query
+      - https://dns.google/dns-query
+      - tls://dns.quad9.net:853
+      - https://doh.opendns.com/dns-query
+      
+   # 备用DNS配置
+  fallback-filter:
+   geoip: true    
+   geoip-code: cn
+   ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      
+#port: 7890
+#socks-port: 7891
+#allow-lan: true
+#mode: Rule
+#log-level: info
+#external-controller: :9090
+#dns:
+#  enable: true
+#  ipv6: false
+#  default-nameserver: [119.29.29.29, 223.5.5.5]
+#  enhanced-mode: fake-ip
+#  fake-ip-range: 198.18.0.1/16
+#  use-hosts: true
+#  nameserver: [https://doh.pub/dns-query, https://dns.alidns.com/dns-query]
+#  fallback: [tls://1.0.0.1:853, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query]
+#  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32]}      
+      
+  
+# 出站策略，根据自己情况调整每个策略里分组排序，增删都可以，比如把美国自动放到第一个，比如删除香港故转，注意别漏掉表情逗号等。
+# 如果相应分组没有筛选到对应的国家，请根据自己节点名字调整筛选关键字。
+# 没有再使用锚点，是考虑很多新手修改难度，这样新手修改某个分组更容易些。
+proxy-groups:
+  - {name: 🚀 默认代理, type: select, proxies: [♻️ 自动选择, 🕹️ 手动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动,🌐 全部节点]}
+ 
+  - {name: ♻️ 自动选择, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "^(?!(直连)).*$" ,regex-engine: "re2"
+, lazy: true}
+  - {name: 🕹️ 手动选择, type: select, include-all: true, filter: "^(?!(直连)).*$"}    
+  - {name: 🇺🇲 美国自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)美国|us|unitedstates|united|加拿大|CA"}
+  
+  - {name: 🇪🇺 欧洲自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)荷兰|德国|DE|法国|FR|西班牙|ES|意大利|IT|澳大利亚|AU|立陶宛|卢森堡|俄罗斯|RU|芬兰"}
+  
+  - {name: 🌍 亚洲自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)日本|jp|japan|新加坡|狮城|SG|Singapore|韩国|伊朗|印度|斯洛文尼亚"}
+  
+  - {name: 🇨🇳 中国自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)中国|CN|台湾|香港|hk|hongkong|hong kong|深圳|河北|山西|辽宁|吉林|黑龙江|江苏|浙江|安徽|福建|江西|山东|河南|湖北|湖南|广东|海南|四川|贵州|云南|陕西|甘肃|青海|内蒙古|广西|西藏|宁夏|新疆|北京|天津|上海|重庆|澳门"}
+  
+  - {name: 📹 YouTube, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: 🍀 Google, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: 👨🏿‍💻 GitHub, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: 🍄 Microsoft, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: ☎ Telegram, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: 🧠 ChatGPT, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国节点, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: 🐬 OneDrive, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: 🎻 TikTok, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: 💶 PayPal, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: 🎥 NETFLIX, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
+
+  - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 拦截, 直连]}
+
+  - {name: 🌐 全部节点, type: fallback, include-all: true, filter: "^(?!(直连)).*$"}  
+  
+# 规则匹配
+# 此规则部分没有做防泄露处理，因为弊严重大于利！
+rules:
+  - RULE-SET,private_ip,直连,no-resolve
+  - RULE-SET,private_domain,直连
+  - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
+  - RULE-SET,proxylite,🚀 默认代理
+  - RULE-SET,ai,🧠 ChatGPT
+  - RULE-SET,github_domain,👨🏿‍💻 GitHub
+  - RULE-SET,youtube_domain,📹 YouTube
+  - RULE-SET,google_domain,🍀 Google
+  - RULE-SET,onedrive_domain,🐬 OneDrive
+  - RULE-SET,microsoft_domain, 🍄 Microsoft
+  - RULE-SET,apple_domain,直连
+  - RULE-SET,tiktok_domain,🎻 TikTok
+  - RULE-SET,telegram_domain,☎ Telegram
+  - RULE-SET,netflix_domain,🎥 NETFLIX
+  - RULE-SET,paypal_domain,💶 PayPal
+  - RULE-SET,apple_ip,直连,no-resolve
+  - RULE-SET,google_ip,🍀 Google,no-resolve
+  - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
+  - RULE-SET,telegram_ip,☎ Telegram,no-resolve
+  - RULE-SET,geolocation-!cn,🚀 默认代理
+  - RULE-SET,cn_domain,直连
+  - RULE-SET,cn_ip,直连
+  - MATCH,🐟 漏网之鱼
+
+# 规则集
+## type：可选http/file/inline  behavior：可选domain/ipcidr/classical format：可选yaml/text/mrs
+rule-anchor:
+  ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
+  domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
+  class: &class {type: http, interval: 86400, behavior: classical, format: text}
+rule-providers: 
+  private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
+  proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"}
+  ai: {  <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs" }
+  youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
+  google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
+  github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
+  telegram_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
+  netflix_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
+  paypal_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs"}
+  onedrive_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.mrs"}
+  microsoft_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
+  apple_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs"}
+  speedtest_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ookla-speedtest.mrs"}
+  tiktok_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
+  geolocation-!cn: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"}
+  cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
+  private_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs"}
+  cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
+  google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
+  telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
+  netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
+  apple_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/apple.mrs"}
