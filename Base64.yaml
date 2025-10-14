@@ -57,7 +57,7 @@ cache-size: 8192  # 提升缓存应对高并发   #新增规则
 Protocol  : TLSv1.3  # 理想状态 
 Cipher    : TLS_AES_128_GCM_SHA256  # 现代加密套件
 auto-redir: true                  #后增加内容
-#mtu: 1500                       #后增加内容
+mtu: 1500                       #后增加内容
 strict-route: true                 #后增加内容
 
 
