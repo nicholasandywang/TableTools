@@ -130,7 +130,7 @@ tun:
   #device: nikki
   auto-route: true
   auto-redirect: true
-  auto-detect-interface: true
+  #auto-detect-interface: true
 
 
 
