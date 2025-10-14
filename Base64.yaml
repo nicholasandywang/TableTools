@@ -272,7 +272,7 @@ proxy-groups:
 
   - {name: ☎ Telegram, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
 
-  - {name: 🧠 ChatGPT, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国节点, 🌐 全部节点, 拦截, 直连]}
+  - {name: 🧠 ChatGPT, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
 
   - {name: 🐬 OneDrive, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 🌐 全部节点, 拦截, 直连]}
 
