@@ -85,12 +85,12 @@ sniffer:
     # 默认嗅探 80
     HTTP:
       ports: [80, 8080-8880]
-    TLS:
-      ports: [853， 443 ,8443]
-    QUIC:
-      ports: [443]
       # 是否使用嗅探结果作为实际访问
       override-destination: true
+    TLS:
+      ports: [853，443 ,8443]
+    QUIC:
+      ports: [443]
   force-domain:
 #  - '+' # Force all domain to use sniffer
     - "+.v2ex.com"
