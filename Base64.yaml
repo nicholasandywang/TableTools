@@ -86,9 +86,9 @@ sniffer:
     HTTP:
       ports: [80, 8080-8880]
     TLS:
-      ports: [443 ,8443]
+      ports: [853， 443 ,8443]
     QUIC:
-      ports: [443 ,8443]
+      ports: [443]
       # 是否使用嗅探结果作为实际访问
       override-destination: true
   force-domain:
@@ -169,9 +169,9 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
-    #- tls://dns.quad9.net:853
-    #- tls://8.8.8.8:853
-    #- tls://1.1.1.1:853
+    - tls://dns.quad9.net:853
+    - tls://8.8.8.8:853
+    - tls://1.1.1.1:853
   # 直连DNS通道（国内专用）
   direct-nameserver:
     #- 127.0.0.1            #增加主路由IP地址
@@ -193,10 +193,10 @@ dns:
 
     - https://8.8.8.8/dns-query
     - https://1.0.0.1/dns-query
-    #- tls://dns.quad9.net:853
-    #- tls://dns.google:853
-    #- tls://8.8.8.8:853  # Google 
-    #- tls://1.1.1.1:853  # Cloudflare
+    - tls://dns.quad9.net:853
+    - tls://dns.google:853
+    - tls://8.8.8.8:853  # Google 
+    - tls://1.1.1.1:853  # Cloudflare
   # 智能分流策略   
   nameserver-policy:
     
@@ -214,8 +214,8 @@ dns:
       - https://cloudflare-dns.com/dns-query
       - https://dns.google/dns-query
       - https://doh.opendns.com/dns-query
-      #- tls://dns.quad9.net:853
-      #- tls://1.0.0.1:853
+      - tls://dns.quad9.net:853
+      - tls://1.0.0.1:853
       
    # 备用DNS配置
   fallback-filter:
