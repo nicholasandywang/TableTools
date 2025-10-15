@@ -93,6 +93,7 @@ sniffer:
       ports: [80, 8080-8880]
       # 是否使用嗅探结果作为实际访问
       override-destination: false
+  force-domain:
 #  - '+' # Force all domain to use sniffer
     - "+.v2ex.com"
     - "+.netflix.com"
