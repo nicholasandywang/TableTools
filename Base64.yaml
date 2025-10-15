@@ -254,7 +254,7 @@ proxy-groups:
   - {name: 🕹️ 手动选择, type: select, include-all: true, filter: "^(?!(直连)).*$"}    
   - {name: 🇺🇲 美国自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)美国|us|unitedstates|united|加拿大|CA"}
   
-  - {name: 🇪🇺 欧洲自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)荷兰|德国|DE|法国|FR|西班牙|ES|意大利|IT|澳大利亚|AU|立陶宛|卢森堡|俄罗斯|RU|芬兰"}
+  - {name: 🇪🇺 欧洲自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)荷兰|德国|DE|法国|FR|西班牙|ES|意大利|IT|澳大利亚|AU|立陶宛|卢森堡|俄罗斯|RU|芬兰|欧盟"}
   
   - {name: 🌍 亚洲自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)日本|jp|japan|新加坡|狮城|SG|Singapore|韩国|伊朗|印度|斯洛文尼亚"}
   
