@@ -11,7 +11,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
-    exclude-filter: "(?i)(过期时间)|(剩余流量)|(TG群)|(官网)"
+    exclude-filter: "(?i)(过期时间)|(剩余流量)|(TG群)|(官网)|(未知)"
   备:
     url: "https://gh-proxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
     #url: ""
@@ -22,7 +22,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
-    exclude-filter: "(?i)(过期时间)|(剩余流量)|(TG群)|(官网)"
+    exclude-filter: "(?i)(过期时间)|(剩余流量)|(TG群)|(官网)|(未知)"
     
 # 节点信息
 proxies:
@@ -249,7 +249,7 @@ dns:
 proxy-groups:
   - {name: 🚀 默认代理, type: select, proxies: [♻️ 自动选择, 🕹️ 手动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动,🌐 全部节点]}
   
-  - {name: ♻️ 自动选择, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, exclude-filter: "(?i)(直连)|(中国)", regex-engine: "re2", lazy: true}
+  - {name: ♻️ 自动选择, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, exclude-filter: "(?i)直连|中国|香港|新加坡|未知", regex-engine: "re2", lazy: true}
 
   - {name: 🕹️ 手动选择, type: select, include-all: true, filter: "^(?!(直连)).*$"}   
   
