@@ -1,9 +1,5 @@
-# DNS防泄露版本
-# 不是必须请勿用，不懂不要随便更改DNS模块
-# 必读！！！
-# 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
-# 跑裸核用户请自行去掉下方控制面板模块的注释。 https://ghfast.top/
-# 机场订阅 https://gh-proxy.com/ 
+# https://ghfast.top/
+# https://gh-proxy.com/ 
 proxy-providers:
   主:
     url: "https://gh-proxy.com/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml"
@@ -15,6 +11,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
+    exclude-filter: "(?i)(过期时间)|(剩余流量)|(TG群)|(官网)"
   备:
     url: "https://gh-proxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
     #url: ""
@@ -25,6 +22,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
+    exclude-filter: "(?i)(过期时间)|(剩余流量)|(TG群)|(官网)"
     
 # 节点信息
 proxies:
