@@ -251,9 +251,12 @@ dns:
 proxy-groups:
   - {name: 🚀 默认代理, type: select, proxies: [♻️ 自动选择, 🕹️ 手动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动,🌐 全部节点]}
  
-  - {name: ♻️ 自动选择, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "^(?!(直连)).*$" ,regex-engine: "re2"
-, lazy: true}
-  - {name: 🕹️ 手动选择, type: select, include-all: true, filter: "^(?!(直连)).*$"}    
+  - {name: ♻️ 自动选择, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "^(?!(直连)).*$" ,regex-engine: "re2", lazy: true}
+
+  - {name: 🌐 全部节点, type: fallback, include-all: true, filter: "^(?!(直连)).*$"}
+
+  - {name: 🕹️ 手动选择, type: select, include-all: true, filter: "^(?!(直连)).*$"}   
+  
   - {name: 🇺🇲 美国自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)美国|us|unitedstates|united|加拿大|CA"}
   
   - {name: 🇪🇺 欧洲自动, type: url-test, strategy: "round-robin", include-all: true ,url: "https://www.gstatic.com/generate_204" ,tolerance: 50, interval: 180, filter: "(?i)荷兰|德国|DE|法国|FR|西班牙|ES|意大利|IT|澳大利亚|AU|立陶宛|卢森堡|俄罗斯|RU|芬兰|欧盟"}
@@ -284,7 +287,7 @@ proxy-groups:
 
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 默认代理, ♻️ 自动选择, 🇺🇲 美国自动, 🇪🇺 欧洲自动, 🌍 亚洲自动, 🇨🇳 中国自动, 拦截, 直连]}
 
-  - {name: 🌐 全部节点, type: fallback, include-all: true, filter: "^(?!(直连)).*$"}  
+    
   
 # 规则匹配
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
